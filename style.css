@@ -106,36 +106,62 @@ body, html {
   font-weight: bold;
 }
 
-.sans-source-reg {
-  font-family: 'sans-source-reg';
+.source-sans-semibold {
+  font-family: 'source-sans-semibold';
 }
 
 @font-face {
-  font-family: 'sans-source-reg';
-  src:font-url('media/fonts/SourceSansPro-Regular.ttf') format('truetype');
+  font-family: 'source-sans-semibold';
+  src:url('media/fonts/SourceSansPro-SemiBold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
-.sans-source-reg {
-  font-family: 'sans-source-reg';
+.source-sans-reg {
+  font-family: 'source-sans-reg';
 }
 
 @font-face {
-  font-family: 'sans-source-reg';
-  src:url('/home/annisa/Documents/akademik/sem 5/wbd/tugas web 1/media/fonts/SourceSansPro-Regular.ttf') format('truetype');
+  font-family: 'source-sans-reg';
+  src:url('media/fonts/SourceSansPro-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
-.sans-source-black {
-  font-family: 'sans-source-black';
+.source-sans-black {
+  font-family: 'source-sans-black';
 }
 
 @font-face {
-  font-family: 'sans-source-black';
-  src: url('SourceSansPro-Semibold.ttf');
+  font-family: 'source-sans-black';
+  src: url('media/fonts/SourceSansPro-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.source-sans-extralight {
+  font-family: 'source-sans-extralight';
+}
+
+@font-face {
+  font-family: 'source-sans-extralight';
+  src: url('media/fonts/SourceSansPro-ExtraLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.source-sans-light {
+  font-family: 'source-sans-light';
+}
+
+@font-face {
+  font-family: 'source-sans-Light';
+  src: url('media/fonts/SourceSansPro-Light.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 h1 {
-  font-family: 'sans-source-reg';
+  font-family: 'source-sans-black';
+}
+h2 {
+  font-family: 'source-sans-reg';
+}
+p {
+  font-family: 'source-sans-reg';
 }
