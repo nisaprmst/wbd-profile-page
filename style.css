@@ -46,12 +46,13 @@ header {
     color: floralwhite;
 }
 .col-left{
-    width: 30%;
-    float: right;
+    width: 70%;
+    text-align: left;
 }
 .col-right{
-    width: auto;
-    float: left;
+    width: 30%;
+    text-align: right;
+    margin-right: 80px;
 }
 
 .address {
@@ -101,6 +102,8 @@ body, html {
   padding: 100px 20px;
   height: 100%;
 }
-
+.bold {
+  font-weight: bold;
+}
 #About {background-color: red;}
-#Contact {background-color: green;}
+#Project {background-color: green;}
