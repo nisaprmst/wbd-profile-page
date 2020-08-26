@@ -3,22 +3,7 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-  }
-  @media (min-width: 768px) {
-    .container {
-      width: 750px;
-    }
-  }
-  @media (min-width: 992px) {
-    .container {
-      width: 970px;
-    }
-  }
-  @media (min-width: 1200px) {
-    .container {
-      width: 1170px;
-    }
-  }
+}
 .row-header {
     margin: 0px auto;
     padding: 0px auto;
@@ -34,7 +19,7 @@
 }
 
 .footer {
-    background-color: #d1c4e9;
+    background-color: #fecb89;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
 }
@@ -42,7 +27,7 @@
 header {
     padding: 10px 30px 10px 30px;
     margin: 0px auto;
-    background-color: #9575cd;
+    background-color: #b9ac92;
     color: floralwhite;
 }
 .col-left{
@@ -90,7 +75,9 @@ body, html {
   font-size: 17px;
   width: 50%;
 }
-
+.margin-left {
+  margin-left: 30px;
+}
 .tablink:hover {
   background-color: #777;
 }
@@ -99,8 +86,11 @@ body, html {
 .tabcontent {
   color: black;
   display: none;
-  padding: 100px 20px;
+  padding: 70px 20px;
   height: 100%;
+}
+.container-content {
+  margin: 0px 150px;
 }
 .bold {
   font-weight: bold;
@@ -164,4 +154,12 @@ h2 {
 }
 p {
   font-family: 'source-sans-reg';
+}
+a { 
+  text-decoration: none; 
+  color: black;
+}
+a:hover {
+  color: #ffa931;
+  text-decoration: underline;
 }
