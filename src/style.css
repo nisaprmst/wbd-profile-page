@@ -1,3 +1,4 @@
+/* Container and media query */
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -114,9 +115,10 @@ body, html {
   font-family: 'source-sans-semibold';
 }
 
+/* Fonts */
 @font-face {
   font-family: 'source-sans-semibold';
-  src:url('media/fonts/SourceSansPro-SemiBold.ttf') format('truetype');
+  src:url('../media/fonts/SourceSansPro-SemiBold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -126,7 +128,7 @@ body, html {
 
 @font-face {
   font-family: 'source-sans-reg';
-  src:url('media/fonts/SourceSansPro-Regular.ttf') format('truetype');
+  src:url('../media/fonts/SourceSansPro-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -136,7 +138,7 @@ body, html {
 
 @font-face {
   font-family: 'source-sans-black';
-  src: url('media/fonts/SourceSansPro-Black.ttf') format('truetype');
+  src: url('../media/fonts/SourceSansPro-Black.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -146,7 +148,7 @@ body, html {
 
 @font-face {
   font-family: 'source-sans-extralight';
-  src: url('media/fonts/SourceSansPro-ExtraLight.ttf') format('truetype');
+  src: url('../media/fonts/SourceSansPro-ExtraLight.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -156,7 +158,7 @@ body, html {
 
 @font-face {
   font-family: 'source-sans-Light';
-  src: url('media/fonts/SourceSansPro-Light.ttf') format('truetype');
+  src: url('../media/fonts/SourceSansPro-Light.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
